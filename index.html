@@ -4,9 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Exercicio Hospital - TypeScript</title>
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
 </head>
 <body>
-    Olar, Mundo!
+	<!-- INFORMAÇÕES DO HOSPITAL -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel panel-default">
+  					<div class="panel-heading">Hospital</div>
+  					<div class="panel-body">
+						<table class="table table-striped" id="tbl_hospital">
+							<thead>
+							    <tr>
+							      <th scope="col">Nome</th>
+							      <th scope="col">qtd. de Médicos</th>
+							      <th scope="col">qtd. de Enfermeiros</th>
+							      <th scope="col">qtd. de Pacientes</th>
+							    </tr>
+							</thead>
+							<tbody>
+							    <tr>
+							      	<td id="h_nome"></td>
+							      	<td id="h_medicos"></td>
+							      	<td id="h_enfermeiros"></td>
+							      	<td id="h_pacientes"></td>
+							    </tr>
+						  	</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel panel-default">
+  					<div class="panel-heading">Médicos</div>
+  					<div class="panel-body">
+						<table class="table table-striped" id="tbl_hospital">
+							<thead>
+							    <tr>
+							      <th class='text-center'>Nome</th>
+							      <th class='text-center'>CPF</th>
+							      <th class='text-center'>Especialidade</th>
+							      <th class="text-center">Cod. Funcionario</th>
+							    </tr>
+							</thead>
+							<tbody id="body_tbl_medicos">
+							    
+						  	</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel panel-default">
+  					<div class="panel-heading">Enfermeiros</div>
+  					<div class="panel-body">
+						<table class="table table-striped" id="tbl_hospital">
+							<thead>
+							    <tr>
+							      <th class='text-center'>Nome</th>
+							      <th class='text-center'>CPF</th>
+							      <th class='text-center'>Coren</th>
+							      <th class="text-center">Cod. Funcionario</th>
+							    </tr>
+							</thead>
+							<tbody id="body_tbl_enfermeiros">
+							    
+						  	</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel panel-default">
+  					<div class="panel-heading">Pacientes</div>
+  					<div class="panel-body">
+						<table class="table table-striped" id="tbl_hospital">
+							<thead>
+							    <tr>
+							      <th class='text-center'>Nome</th>
+							      <th class='text-center'>CPF</th>
+							      <th class="text-center">Cod. Paciente</th>
+							    </tr>
+							</thead>
+							<tbody id="body_tbl_pacientes">
+							    
+						  	</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
+<script type="text/javascript" src="../Classes/Pessoa.js"></script>
+<script type="text/javascript" src="../Classes/Funcionario.js"></script>
+<script type="text/javascript" src="../Classes/Paciente.js"></script>
+<script type="text/javascript" src="../Classes/Medico.js"></script>
+<script type="text/javascript" src="../Classes/Enfermeiro.js"></script>
+<script type="text/javascript" src="../Classes/Hospital.js"></script>
+<script type="text/javascript" src="../Classes/Implementa.js"></script>
 </html>

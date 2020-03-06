@@ -3,8 +3,9 @@ namespace Hospital {
         
         private _cdFuncionario: number | undefined;
 
-        public setCodFuncionario(cd : number): void {
-            this._cdFuncionario = cd;
+        constructor(nome : string ,cpf: string, cd: number){
+        	super(nome, cpf);
+        	this._cdFuncionario = cd;
         }
 
         public getCodFuncionario(): number | undefined{

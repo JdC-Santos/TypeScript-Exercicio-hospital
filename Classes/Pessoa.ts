@@ -4,16 +4,13 @@ namespace Hospital {
         private _nome: string | undefined;
         private _cpf: string | undefined;
 
-        public setNome(nome: string): void{
+        constructor(nome: string, cpf: string){
             this._nome = nome;
+            this._cpf = cpf;
         }
 
         public getNome(): string| undefined{
             return this._nome;
-        }
-
-        public setCPF(cpf: string): void {
-            this._cpf = cpf;
         }
 
         public getCPF(): string| undefined{
