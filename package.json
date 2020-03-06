@@ -1,0 +1,25 @@
+{
+  "name": "typescript-exercicio-hospital",
+  "version": "1.0.0",
+  "main": "./index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhonatancs/TypeScript-Exercicio-hospital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhonatancs/TypeScript-Exercicio-hospital/issues"
+  },
+  "homepage": "https://github.com/Jhonatancs/TypeScript-Exercicio-hospital#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
